@@ -1,3 +1,4 @@
+#if 0
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <sys/un.h>
@@ -51,3 +52,4 @@ void rose_setsockopt(struct sockopt *so)
 	val = rand() % NR_SOL_ROSE_OPTS;
 	so->optname = rose_opts[val];
 }
+#endif

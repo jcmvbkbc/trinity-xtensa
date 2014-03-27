@@ -20,7 +20,7 @@ struct socket_ptr {
 	void (*func)(struct socket_triplet *st);
 };
 static const struct socket_ptr socketptrs[] = {
-	{ .family = AF_APPLETALK, .func = &atalk_rand_socket },
+	//{ .family = AF_APPLETALK, .func = &atalk_rand_socket },
 	{ .family = AF_AX25, .func = &ax25_rand_socket },
 #ifdef USE_CAIF
 	{ .family = AF_CAIF, .func = &caif_rand_socket },

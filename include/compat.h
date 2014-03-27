@@ -859,6 +859,9 @@ struct kvm_get_htab_fd {
 #endif
 
 /* sched.h */
+#ifndef SCHED_IDLE
+#define SCHED_IDLE 5
+#endif
 #ifndef SCHED_DEADLINE
 #define SCHED_DEADLINE 6
 #endif
