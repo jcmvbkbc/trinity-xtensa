@@ -40,3 +40,6 @@
 #ifdef __hppa__
 #include "syscalls-parisc.h"
 #endif
+#ifdef __xtensa__
+#include "syscalls-xtensa.h"
+#endif

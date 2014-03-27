@@ -50,6 +50,10 @@
 #include "arch-parisc.h"
 #endif
 
+#ifdef __xtensa__
+#include "arch-xtensa.h"
+#endif
+
 #ifndef SYSCALL_OFFSET
 #define SYSCALL_OFFSET 0
 #endif
